@@ -13,26 +13,22 @@ const Competition = () => {
             <div className="competition-text-card">
               <Heading
                 classStyle={'product-heading'}
-                text={'Competition'}
-              />
+                text={'Competition'} />
               <Description
                 classStyle={'competition-para pb-2'}
                 text={
                   'Given our best in class offering, we need to cut through by opting for penetration pricing.'
-                }
-              />
+                }/>
               <Description
                 classStyle={'competition-para pb-2'}
                 text={
                   'This will allow us to disrupt an established market by introducing our product and service at a lower price to entice new customers to purchase or subscribe. This strategy will help us capture the attention of this very large audience in need of a good solution.'
-                }
-              />
+                }/>
               <Description
                 classStyle={'competition-para pb-2'}
                 text={
                   'The current return and refund process centres around either traditional advice or software. By combining both together for an aggressively affordable fee, we think we can capture much of the demand for those people that feel competent in managing their own refunds / returns.'
-                }
-              />
+                } />
               <Description
                 classStyle={'competition-para pb-2'}
                 text={
@@ -54,10 +50,10 @@ const Competition = () => {
                   </tr>
                 </thead>
                 <tbody>
-                  {COMPETITION_DATA.map((row, index) => (
+                  {COMPETITION_DATA.map((obj, index) => (
                     <tr key={index}>
-                      <th className="text-white">{row.feature}</th>
-                      {row.data.map((item, index) => (
+                      <th className="text-white">{obj.title}</th>
+                      {obj.data.map((item, index) => (
                         <td key={index} className={typeof item === 'string' && item.startsWith('£') ? 'bg-white' : ''}>
                           {typeof item === 'string' && item.startsWith('£') ? (
                             item

@@ -16,27 +16,27 @@
 
  export const COMPETITION_DATA = [
     {
-        feature: 'Mobile App',
+        title: 'Mobile App',
         data: ['crossIcon', 'crossIcon', 'clickIcon', 'clickIcon'],
     },
     {
-        feature: 'Invoicing',
+        title: 'Invoicing',
         data: ['crossIcon', 'crossIcon', 'clickIcon', 'clickIcon'],
     },
     {
-        feature: 'Bookkeeping',
+        title: 'Bookkeeping',
         data: ['crossIcon', 'crossIcon', 'clickIcon', 'clickIcon'],
     },
     {
-        feature: 'Accountancy Support',
+        title: 'Accountancy Support',
         data: ['clickIcon', 'clickIcon', 'crossIcon', 'clickIcon'],
     },
     {
-        feature: 'Tax Filing',
+        title: 'Tax Filing',
         data: ['clickIcon', 'clickIcon', 'clickIcon', 'clickIcon'],
     },
     {
-        feature: 'Fee',
+        title: 'Fee',
         data: [
             'Est: £300 per year',
             '£300 per year',
