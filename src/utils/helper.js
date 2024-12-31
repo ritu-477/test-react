@@ -1,17 +1,19 @@
- export const CARD_DATA = {
-    "card-one": {
-        title: "Card One",
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, enim."
-    },
-    "card-two": {
-        title: "Card Two",
-        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, laborum."
-    },
-    "card-three": {
-        title: "Card Three",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, debitis."
-    }
-};
+ export const CARD_DATA = [
+    {
+    heading: 'Card 1',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque officia velit veniam doloremque aperiam sapiente dolore'
+     },
+
+{
+    heading: 'Card 2',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque officia velit veniam doloremque aperiam sapiente dolore'
+     },
+
+{
+    heading: 'Card 3',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque officia velit veniam doloremque aperiam sapiente dolore'
+}
+];
 
 export const COMPETITION_LIST = [
     {
