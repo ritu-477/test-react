@@ -14,11 +14,11 @@ const CounterBox = () => {
                     <Heading classStyle="text-center mb-3" text="Counter UseState" />
 
                     <h2 className="mb-3 text-white">{count}</h2>
-                    <div>
-                        <button onClick={increment} className="btn btn-success mx-2">
+                    <div className='d-flex gap-2'>
+                        <button onClick={increment} className="p-3 border-gray border-black text-black rounded-3">
                             Increment
-                        </button>
-                        <button onClick={decrement} className="btn btn-danger mx-2">
+                        </button> 
+                        <button onClick={decrement} className="p-3 border-gray border-black bg-danger text-black rounded-3">
                             Decrement
                         </button>
                     </div>
