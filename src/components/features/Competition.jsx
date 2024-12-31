@@ -6,7 +6,7 @@ import Description from '../../common/Description';
 const Competition = () => {
   return (
     <div className='min-vh-100 py-5 d-flex competition-section justify-content-center align-items-center bg-dark-blue'>
-      <div className='competition-container row row-gap-4'>
+      <div className='competition-container row row-gap-4 justify-content-between'>
         <div className='col-lg-6 col-12 d-flex justify-content-center flex-column'>
           <Heading
             classStyle={'product-heading'} text={'Competition'} />
@@ -26,7 +26,7 @@ const Competition = () => {
                           'The current return and refund process centres around either traditional advice or software. By combining both together for an aggressively affordable fee, we think we can capture much of the demand for those people that feel competent in managing their own refunds / returns.'
                     } />
                    <Description
-                   classStyle={'competition-para pb-2'}
+                   classStyle={'competition-para'}
                   text={
                   'As well as being the cheapest in market, our product offers everything a sole trader needs in one place, whilst pricing innovation of zero commission rather than a commission, will drive customers that are particularly price sensitive.'
           }
