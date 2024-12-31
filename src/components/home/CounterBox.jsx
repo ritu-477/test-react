@@ -11,7 +11,7 @@ const CounterBox = () => {
         <div className='bg-dark-blue'>
             <div className="container bg-purple py-4">
                 <div className="d-flex flex-column align-items-center">
-                    <Heading classStyle="text-center mb-3" text="Counter" />
+                    <Heading classStyle="text-center mb-3" text="Counter UseState" />
 
                     <h2 className="mb-3 text-white">{count}</h2>
                     <div>

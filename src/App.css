@@ -189,9 +189,6 @@
   width: 100%;
 }
 
-/*  /
-
-/ Works  */
 .competition-table {
   width: 100%;
   border-collapse: collapse;
@@ -281,12 +278,12 @@ table td:first-child {
   border-left: none;
 }
 
-.x-radius-top {
+.radius-top {
   border-top-left-radius: 6px !important;
   border-top-right-radius: 6px !important;
 }
 
-.x-radius-bottom {
+.radius-bottom {
   border-bottom-left-radius: 6px !important;
   border-bottom-right-radius: 6px !important;
 }
@@ -306,15 +303,11 @@ thead tr th {
 }
 
 
-.use-effect-text {
-  font-size: 24px;
-}
-
 .cursor-pointer {
   cursor: pointer;
 }
 
-.px-sm {
+.px-none {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
