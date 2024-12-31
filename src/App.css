@@ -38,12 +38,12 @@
 }
 
 .product {
-  padding-top: 72px;
-  padding-bottom: 72px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .product-heading {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .grid-box {
@@ -453,6 +453,15 @@ thead tr th {
   .grid-item-12 {
     grid-row: 3/4;
     grid-column: 5/7;
+  }
+
+  .product-heading {
+    padding-bottom: 50px;
+  }
+
+  .product {
+    padding-top: 72px;
+    padding-bottom: 72px;
   }
 
 }
