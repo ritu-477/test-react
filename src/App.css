@@ -233,13 +233,13 @@
   border-spacing: 10px 0;
 }
 
-.Competition-td {
+.competition-td {
   padding: 8px 14px;
   border-top: 0.75px solid #000000;
   border-bottom: 0.75px solid #000000;
 }
 
-.Competition-td:last-child {
+.competition-td:last-child {
   background-color: #e8f5e9;
 }
 
@@ -420,7 +420,7 @@ thead tr th {
     padding-bottom: 72px;
   }
 
-  .Competition-td {
+  .competition-td {
     padding: 18px 26px;
   }
 
