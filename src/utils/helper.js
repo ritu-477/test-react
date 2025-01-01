@@ -1,18 +1,18 @@
- export const CARDS_DATA = [
+export const CARDS_DATA = [
     {
-    heading: 'Card 1',
+        heading: 'Card 1',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque officia velit veniam doloremque aperiam sapiente dolore'
-     },
+    },
 
-{
-    heading: 'Card 2',
+    {
+        heading: 'Card 2',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque officia velit veniam doloremque aperiam sapiente dolore'
-     },
+    },
 
-{
-    heading: 'Card 3',
+    {
+        heading: 'Card 3',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque officia velit veniam doloremque aperiam sapiente dolore'
-}
+    }
 ];
 
 export const COMPETITION_LIST = [

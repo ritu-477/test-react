@@ -7,7 +7,7 @@ const CardsParams = () => {
     const [searchParams, setSearchParams] = useSearchParams();
 
     const handleClick = (card) => {
-        setSearchParams({ card: card.replace(/ /g, '-') });
+        setSearchParams({ card: card.replace(/ /g, '-').toLowerCase()});
     };
 
     const cardSelected = searchParams.get('card');

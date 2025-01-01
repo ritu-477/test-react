@@ -4,10 +4,10 @@ import CountingCountDown from '../features/CountingCountDown.jsx'
 
 const Features = () => {
   return (
-      <>
-          <Competition />
-          <CountingCountDown />
-      </>
+    <>
+      <Competition />
+      <CountingCountDown />
+    </>
   )
 }
 
