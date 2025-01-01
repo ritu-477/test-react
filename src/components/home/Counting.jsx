@@ -22,7 +22,7 @@ const Counting = () => {
         <div className='bg-dark-blue py-5'>
             <div className="container text-center">
                 <Heading classStyle={'text-center mx-auto'} text={'Counting from 1 to 100 UseEffect'} />
-                <p className='text-white pt-4'>{count}</p>
+                <p className='text-white pt-4 count-text fw-normal ff-avantt-normal'>{count}</p>
             </div>
        </div>
     );

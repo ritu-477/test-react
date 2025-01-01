@@ -1,6 +1,6 @@
 const Heading = ({ text, classStyle }) => {
     return (
-        <h2 className={`main-heading ff-avantt-semibold mb-0 ${classStyle}`}>{text}</h2>
+        <h2 className={`main-heading fw-semibold mb-0 text-white ${classStyle}`}>{text}</h2>
     )
 }
 export default Heading

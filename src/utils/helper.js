@@ -1,4 +1,4 @@
- export const CARD_DATA = [
+ export const CARDS_DATA = [
     {
     heading: 'Card 1',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque officia velit veniam doloremque aperiam sapiente dolore'
@@ -35,6 +35,7 @@ export const COMPETITION_LIST = [
         </svg>
         ),
     },
+
     {
         brand: "Invoicing",
         rift: (<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -54,6 +55,7 @@ export const COMPETITION_LIST = [
         </svg>
         ),
     },
+
     {
         brand: "Bookkeeping",
         rift: (<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -73,6 +75,7 @@ export const COMPETITION_LIST = [
         </svg>
         ),
     },
+
     {
         brand: "Accountancy support",
         rift: (<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -92,6 +95,7 @@ export const COMPETITION_LIST = [
         </svg>
         ),
     },
+
     {
         brand: "Tax Filing",
         rift: (<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -111,6 +115,7 @@ export const COMPETITION_LIST = [
         </svg>
         ),
     },
+
     {
         brand: "Fee",
         rift: "Est: £300 per year",

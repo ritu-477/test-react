@@ -5,8 +5,8 @@ import Description from '../../common/Description';
 
 const Competition = () => {
   return (
-    <div className='min-vh-100 py-5 d-flex competition-section justify-content-center align-items-center bg-dark-blue'>
-      <div className='competition-container row row-gap-4 justify-content-between'>
+    <div className='d-flex competition justify-content-center align-items-center bg-dark-blue'>
+      <div className='container row row-gap-4 justify-content-between'>
         <div className='col-lg-6 col-12 d-flex justify-content-center flex-column'>
           <Heading
             classStyle={'product-heading'} text={'Competition'} />
@@ -39,20 +39,20 @@ const Competition = () => {
                 <thead>
                   <tr>
                     <th></th>
-                    <th className="radius-top text-center bg-white table-heading">Rift</th>
-                    <th className="radius-top text-center bg-white table-heading">Taxscout</th>
-                    <th className="radius-top text-center bg-white table-heading">Coconut</th>
-                    <th className="radius-top text-center bg-dark-aqua table-heading">Pie</th>
+                    <th className="radius-top fw-semibold ff-avantt-semibold text-center bg-white table-heading text-black">Rift</th>
+                    <th className="radius-top fw-semibold ff-avantt-semibold text-center bg-white table-heading text-black">Taxscout</th>
+                    <th className="radius-top fw-semibold ff-avantt-semibold text-center bg-white table-heading text-black">Coconut</th>
+                    <th className="radius-top fw-semibold ff-avantt-semibold text-center bg-dark-aqua table-heading text-black">Pie</th>
                   </tr>
                 </thead>
                 <tbody>
                   {COMPETITION_LIST.map((item, i) => (
                     <tr key={i}>
-                      <td className={`text-white fw-normal Competition-td bg-transparent border-b-none ${i === 3 ? 'max-w-sm' : ''}`}>{item.brand}</td>
-                      <td className={`bg-white Competition-td border-b-none text-center fee-heading ${i === 5 ? 'radius-bottom ' : ''} `}>{item.rift}</td>
-                      <td className={`bg-white Competition-td border-b-none text-center fee-heading ${i === 5 ? 'radius-bottom ' : ''} `}>{item.taxscout}</td>
-                      <td className={`bg-white Competition-td border-b-none text-center fee-heading ${i === 5 ? 'radius-bottom ' : ''}`}>{item.coconut}</td>
-                      <td className={`bg-dark-aqua Competition-td border-b-none text-center fee-heading ${i === 5 ? 'radius-bottom px-none' : ''}`}>{item.pie}</td>
+                      <td className={`text-white fw-normal ff-avantt-normal Competition-td bg-transparent border-b-none ${i === 3 ? 'max-w-sm px-2' : 'px-2'}`}>{item.brand}</td>
+                      <td className={`bg-white Competition-td ff-avantt-normal border-b-none text-center fee-heading ${i === 5 ? 'radius-bottom ' : ''} `}>{item.rift}</td>
+                      <td className={`bg-white Competition-td ff-avantt-normal border-b-none text-center fee-heading ${i === 5 ? 'radius-bottom ' : ''} `}>{item.taxscout}</td>
+                      <td className={`bg-white Competition-td ff-avantt-normal border-b-none text-center fee-heading ${i === 5 ? 'radius-bottom ' : ''}`}>{item.coconut}</td>
+                      <td className={`bg-dark-aqua Competition-td ff-avantt-normal border-b-none text-center fee-heading ${i === 5 ? 'radius-bottom px-1' : ''}`}>{item.pie}</td>
                     </tr>
                   ))}
                 </tbody>

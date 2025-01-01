@@ -6,7 +6,7 @@ const Product = () => {
   return (
     <div className='product bg-dark-blue'>
           <div className='container'>
-        <div className='flex-lg-row d-flex flex-column gap-4'>
+        <div className='flex-lg-row d-flex flex-column gap-3'>
             <div className='bg-purple product-card'>
               <Heading classStyle={'product-heading'} text={'Product'} />
               <Description classStyle={'product-para pb-2'} text={'Due to the confusing nature of tax, the lack of awareness of the tax deduction system and the complicated tax refund process, we have experienced exceptional demand from the public for our service. From release in 2015, our original tax product has achieved 60x growth, bringing in over £5m revenue in 2022.'} />
@@ -16,19 +16,19 @@ const Product = () => {
              </div>
             <div className='bg-purple product-grid-card d-flex justify-content-center align-items-center w-100'> 
             <div className='grid-box w-100'>
-              <div className='grid-item-1 h-100 w-100'><img src="/assets/images/webp/grid-one.webp" alt="one" className='max-w-100 w-100 h-100'/></div>
-              <div className='grid-item-2 h-100 w-100'><img src="/assets/images/webp/grid-two.webp" alt="two" className='max-w-203 w-100 h-100' /></div>
-              <div className='grid-item-3 h-100 w-100'><img src="/assets/images/webp/grid-three.webp" alt="three" className='max-w-100 h-100 w-100' />
+              <div className='grid-item-1 h-100 w-100'><img src="/assets/images/webp/grid-one.webp" alt="one" className='short-image w-100 h-100'/></div>
+              <div className='grid-item-2 h-100 w-100'><img src="/assets/images/webp/grid-two.webp" alt="two" className='large-image w-100 h-100' /></div>
+              <div className='grid-item-3 h-100 w-100'><img src="/assets/images/webp/grid-three.webp" alt="three" className='short-image h-100 w-100' />
               </div>
-              <div className='grid-item-4 h-100 w-100'><img src="/assets/images/webp/grid-four.webp" alt="four" className='max-w-203 w-100 h-100' /></div>
-              <div className='grid-item-5 h-100 w-100'><img src="/assets/images/webp/grid-five.webp" alt="five" className='max-w-203 h-100 w-100' /></div>
-              <div className='grid-item-6 h-100 w-100'><img src="/assets/images/webp/grid-six.webp" alt="six" className='max-w-100 w-100 h-100' /></div>
-              <div className='grid-item-7 h-100 w-100'><img src="/assets/images/webp/grid-seven.webp" alt="seven" className='max-w-203 h-100' /></div>
-              <div className='grid-item-8 h-100 w-100'><img src="/assets/images/webp/grid-eight.webp" alt="eight" className='max-w-100 w-100 h-100' /></div>
-              <div className='grid-item-9 h-100 w-100'><img src="/assets/images/webp/grid-nine.webp" alt="nine" className='max-w-100 h-100 w-100' /></div>
-              <div className='grid-item-10 h-100 w-100'><img src="/assets/images/webp/grid-ten.webp" alt="ten" className='max-w-203 w-100 h-100' /></div>
-              <div className='grid-item-11 h-100 w-100'><img src="/assets/images/webp/grid-eleven.webp" alt="eleven" className='max-w-100 h-100 w-100' /></div>
-              <div className='grid-item-12 h-100 w-100'><img src="/assets/images/webp/grid-twelve.webp" alt="twelve" className='max-w-203 w-100 h-100' /></div>
+              <div className='grid-item-4 h-100 w-100'><img src="/assets/images/webp/grid-four.webp" alt="four" className='large-image w-100 h-100' /></div>
+              <div className='grid-item-5 h-100 w-100'><img src="/assets/images/webp/grid-five.webp" alt="five" className='large-image h-100 w-100' /></div>
+              <div className='grid-item-6 h-100 w-100'><img src="/assets/images/webp/grid-six.webp" alt="six" className='short-image w-100 h-100' /></div>
+              <div className='grid-item-7 h-100 w-100'><img src="/assets/images/webp/grid-seven.webp" alt="seven" className='large-image h-100' /></div>
+              <div className='grid-item-8 h-100 w-100'><img src="/assets/images/webp/grid-eight.webp" alt="eight" className='short-image w-100 h-100' /></div>
+              <div className='grid-item-9 h-100 w-100'><img src="/assets/images/webp/grid-nine.webp" alt="nine" className='short-image h-100 w-100' /></div>
+              <div className='grid-item-10 h-100 w-100'><img src="/assets/images/webp/grid-ten.webp" alt="ten" className='large-image w-100 h-100' /></div>
+              <div className='grid-item-11 h-100 w-100'><img src="/assets/images/webp/grid-eleven.webp" alt="eleven" className='short-image h-100 w-100' /></div>
+              <div className='grid-item-12 h-100 w-100'><img src="/assets/images/webp/grid-twelve.webp" alt="twelve" className='large-image w-100 h-100' /></div>
             </div>
           </div>
         </div>
